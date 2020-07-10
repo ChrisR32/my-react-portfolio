@@ -1,13 +1,13 @@
 .header-color {
-  background: #8E2DE2;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
+  background: #fe8c00;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #f83600, #fe8c00);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #f83600, #fe8c00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
 
 .landing-grid {
-  background: #8E2DE2;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #fe8c00;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #f83600, #fe8c00);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #f83600, #fe8c00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
   position: fixed;
   top: 0;
@@ -32,18 +32,18 @@
 .banner-text h1 {
   font-size: 66px;
   font-weight: bold;
-  color: whitesmoke;
+  color: white;
 }
 
 .banner-text hr {
-  border-top: 5px dotted whitesmoke;
+  border-top: 5px dotted white;
   width: 50%;
   margin: auto;
 }
 
 .banner-text p {
-  color: whitesmoke;
-  font-size: 16px;
+  color: white;
+  font-size: 20px;
   padding: 1em;
 }
 
@@ -55,8 +55,13 @@
 }
 
 .social-links i {
-  color: whitesmoke;
+  color: white;
   font-size: 5em;
   padding: 8px;
+  padding-bottom: 12px;
+}
+
+.social-links i:hover {
+  text-shadow: 1px 1px 2px black, 0 0 25px orange, 0 0 5px rgb(255, 153, 0);
 }
 
