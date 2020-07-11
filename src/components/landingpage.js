@@ -13,9 +13,12 @@ class Landing extends Component {
                       className="profile-picture"
                       />
                       <div className="banner-text">
-                          <h1>Junior Software Developer</h1>
+                          <h1>Christopher Morris</h1>
+                          <h2>Junior Software Developer</h2>
                           <hr/>
                           <p>Ruby | HTML/CSS | Bootstrap | Rails | PostgreSQL | JavaScript | MongoDB | ExpressJS | ReactJS | NodeJS | jQuery</p>
+                          </div>
+
                           <div className="social-links">
                               <a href="https://www.linkedin.com/in/chris-morris-r32/" rel="noopener noreferrer" target="_blank">
                                   <i className="fa fa-linkedin-square" aria-hidden="true" />
@@ -30,7 +33,6 @@ class Landing extends Component {
                                   <i className="fa fa-twitter-square" aria-hidden="true" />
                               </a>
                           </div>
-                      </div>
                     </Cell>
                 </Grid>
             </div>

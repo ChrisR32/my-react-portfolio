@@ -1,3 +1,13 @@
+body {
+  display: flex; 
+  min-height: 100vh; 
+  flex-direction: column; 
+}
+
+main-content { 
+  flex: 1 0 auto;
+ }
+
 .header-color {
   background: #fe8c00;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #f83600, #fe8c00);  /* Chrome 10-25, Safari 5.1-6 */
@@ -23,28 +33,41 @@
 
 .banner-text {
   background-color: black;
-  opacity: .8;
-  width: 75%;
+  opacity: .7;
+  width: 80%;
   margin: auto;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .banner-text h1 {
-  font-size: 66px;
+  font-size: 4.8em;
   font-weight: bold;
   color: white;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.banner-text h2 {
+  font-size: 2.4em;
+  font-weight: bold;
+  color: white;
+  margin-top: -.6em;
 }
 
 .banner-text hr {
-  border-top: 5px dotted white;
+  border-top: 5px solid white;
   width: 50%;
   margin: auto;
+  margin-top: -1%;
+  padding-bottom: 3%;
 }
 
 .banner-text p {
   color: white;
   font-size: 20px;
-  padding: 1em;
+  padding-bottom: .7em;
+  width: 80%;
+  margin: auto;
 }
 
 .social-links {
@@ -52,6 +75,7 @@
   justify-content: space-between;
   width: 50%;
   margin: auto;
+  padding-top: 3%;
 }
 
 .social-links i {
@@ -62,6 +86,40 @@
 }
 
 .social-links i:hover {
-  text-shadow: 1px 1px 2px black, 0 0 25px orange, 0 0 5px rgb(255, 153, 0);
+  text-shadow: 2px 2px 4px rgb(231, 52, 7), 0 0 30px orange, 0 0 10px rgb(255, 153, 0);
 }
 
+#content-desktop {
+  display: block;
+  font-size: 1.3em;
+  font-weight: bold;
+  color: rgb(223, 219, 219);
+}
+
+#content-desktop:hover {
+  color: white;
+  text-shadow: 1px 1px 2px rgb(190, 41, 3), 0 0 25px orange, 0 0 5px rgb(255, 153, 0);
+}
+
+@media screen and (max-width: 768px) {
+
+#content-desktop {display: none;}
+
+}
+
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  flex: content;
+flex-direction: row;
+justify-content: space-evenly;
+}
+
+.the-project-title p {
+  font-weight: bold;
+  font-size: 22px;
+  color: white;
+  text-shadow: 2px 2px 4px black, 0 0 25px rgb(83, 83, 83), 0 0 5px rgb(53, 53, 53);
+  text-align: center;
+  padding-bottom: 8px;
+}
