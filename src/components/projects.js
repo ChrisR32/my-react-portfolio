@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Cell, Card, CardTitle, CardActions, Button, CardMenu, IconButton, CardText } from 'react-mdl';
+import { Grid, Cell, Card, CardTitle, CardActions, Button, Tooltip, CardText } from 'react-mdl';
 
 class Projects extends Component {
     render() {
@@ -19,10 +19,13 @@ class Projects extends Component {
                                     <strong><div style={{ textAlign: 'center' }}>Node.JS | JavaScript | Express | Socket.io | CSS | HTML</div></strong>
                                     </CardText>
                                     <CardActions border>
+                                    <Tooltip style={{ float: 'left' }} label="Check out the code" position="bottom" large>
                                     <a href="https://github.com/ChrisR32/" rel="noopener noreferrer" target="_blank">
                                         <Button colored>GitHub Repository</Button></a>
-                                    <a href="http://www.compuconsultations.org/" style={{ textAlign: 'right', paddingLeft: '33px' }} rel="noopener noreferrer" target="_blank">
-                                        <Button colored>Live Site</Button></a>
+                                        </Tooltip>
+                                        <Tooltip style={{ float: 'right' }} label="See it in action" position="bottom" large>
+                                    <a href="http://www.compuconsultations.org/" rel="noopener noreferrer" target="_blank">
+                                        <Button colored>Live Site</Button></a></Tooltip>
                                     </CardActions>
                                 </Card>
                                 </div>
@@ -38,10 +41,13 @@ class Projects extends Component {
                                     <strong><div style={{ textAlign: 'center' }}>React JS | JavaScript | CSS | HTML</div></strong>
                                     </CardText>
                                     <CardActions border>
+                                    <Tooltip style={{ float: 'left' }} label="Check out the code" position="bottom" large>
                                     <a href="https://github.com/ChrisR32/" rel="noopener noreferrer" target="_blank">
                                         <Button colored>GitHub Repository</Button></a>
-                                    <a href="http://www.compuconsultations.org/" style={{ textAlign: 'right', paddingLeft: '33px' }} rel="noopener noreferrer" target="_blank">
-                                        <Button colored>Live Site</Button></a>
+                                        </Tooltip>
+                                        <Tooltip style={{ float: 'right' }} label="See it in action" position="bottom" large>
+                                    <a href="http://www.compuconsultations.org/" rel="noopener noreferrer" target="_blank">
+                                        <Button colored>Live Site</Button></a></Tooltip>
                                     </CardActions>
                                 </Card>
                                 </div>
@@ -57,10 +63,13 @@ class Projects extends Component {
                                     <strong><div style={{ textAlign: 'center' }}>React JS | JavaScript | CSS | HTML</div></strong>
                                     </CardText>
                                     <CardActions border>
+                                    <Tooltip style={{ float: 'left' }} label="Check out the code" position="bottom" large>
                                     <a href="https://github.com/ChrisR32/" rel="noopener noreferrer" target="_blank">
                                         <Button colored>GitHub Repository</Button></a>
-                                    <a href="http://www.compuconsultations.org/" style={{ textAlign: 'right', paddingLeft: '33px' }} rel="noopener noreferrer" target="_blank">
-                                        <Button colored>Live Site</Button></a>
+                                        </Tooltip>
+                                        <Tooltip style={{ float: 'right' }} label="See it in action" position="bottom" large>
+                                    <a href="http://www.compuconsultations.org/" rel="noopener noreferrer" target="_blank">
+                                        <Button colored>Live Site</Button></a></Tooltip>
                                     </CardActions>
                                 </Card>
                                 </div>
@@ -76,10 +85,13 @@ class Projects extends Component {
                                     <strong><div style={{ textAlign: 'center' }}>React JS | CSS | HTML</div></strong>
                                     </CardText>
                                     <CardActions border>
+                                    <Tooltip style={{ float: 'left' }} label="Check out the code" position="bottom" large>
                                     <a href="https://github.com/ChrisR32/" rel="noopener noreferrer" target="_blank">
                                         <Button colored>GitHub Repository</Button></a>
-                                    <a href="http://www.compuconsultations.org/" style={{ textAlign: 'right', paddingLeft: '33px' }} rel="noopener noreferrer" target="_blank">
-                                        <Button colored>Live Site</Button></a>
+                                        </Tooltip>
+                                        <Tooltip style={{ float: 'right' }} label="See it in action" position="bottom" large>
+                                    <a href="http://www.compuconsultations.org/" rel="noopener noreferrer" target="_blank">
+                                        <Button colored>Live Site</Button></a></Tooltip>
                                     </CardActions>
                                 </Card>
                                 </div>
@@ -95,10 +107,13 @@ class Projects extends Component {
                                     <strong><div style={{ textAlign: 'center' }}>React JS | CSS | HTML</div></strong>
                                     </CardText>
                                     <CardActions border>
+                                    <Tooltip style={{ float: 'left' }} label="Check out the code" position="bottom" large>
                                     <a href="https://github.com/ChrisR32/my-react-portfolio" rel="noopener noreferrer" target="_blank">
                                         <Button colored>GitHub Repository</Button></a>
-                                    <a href="http://www.compuconsultations.org/" style={{ textAlign: 'right', paddingLeft: '33px' }} rel="noopener noreferrer" target="_blank">
-                                        <Button colored>Live Site</Button></a>
+                                        </Tooltip>
+                                        <Tooltip style={{ float: 'right' }} label="See it in action" position="bottom" large>
+                                    <a href="http://www.compuconsultations.org/" rel="noopener noreferrer" target="_blank">
+                                        <Button colored>Live Site</Button></a></Tooltip>
                                     </CardActions>
                                 </Card>
                                 </div>
@@ -114,10 +129,13 @@ class Projects extends Component {
                                     <strong><div style={{ textAlign: 'center' }}>Ruby on Rails | JavaScript | Bootstrap Omniauth | PostgreSQL</div></strong>
                                     </CardText>
                                     <CardActions border>
+                                    <Tooltip style={{ float: 'left' }} label="Check out the code" position="bottom" large>
                                     <a href="https://github.com/ChrisR32/MarsHome" rel="noopener noreferrer" target="_blank">
                                         <Button colored>GitHub Repository</Button></a>
-                                    <a href="https://warm-brook-32678.herokuapp.com/" style={{ textAlign: 'right', paddingLeft: '33px' }} rel="noopener noreferrer" target="_blank">
-                                        <Button colored>Live Site</Button></a>
+                                        </Tooltip>
+                                        <Tooltip style={{ float: 'right' }} label="See it in action" position="bottom" large>
+                                    <a href="https://warm-brook-32678.herokuapp.com/" rel="noopener noreferrer" target="_blank">
+                                        <Button colored>Live Site</Button></a></Tooltip>
                                     </CardActions>
                                 </Card>
                                 </div>
@@ -133,10 +151,13 @@ class Projects extends Component {
                                     <strong><div style={{ textAlign: 'center' }}>HTML | CSS | JavaScript</div></strong>
                                     </CardText>
                                     <CardActions border>
+                                    <Tooltip style={{ float: 'left' }} label="Check out the code" position="bottom" large>
                                     <a href="https://github.com/ChrisR32/Profile-Page" rel="noopener noreferrer" target="_blank">
                                         <Button colored>GitHub Repository</Button></a>
-                                    <a href="http://www.compuconsultations.org/" style={{ textAlign: 'right', paddingLeft: '33px' }} rel="noopener noreferrer" target="_blank">
-                                        <Button colored>Live Site</Button></a>
+                                        </Tooltip>
+                                        <Tooltip style={{ float: 'right' }} label="See it in action" position="bottom" large>
+                                    <a href="http://www.compuconsultations.org/" rel="noopener noreferrer" target="_blank">
+                                        <Button colored>Live Site</Button></a></Tooltip>
                                     </CardActions>
                                 </Card>
                                 </div>
@@ -152,10 +173,13 @@ class Projects extends Component {
                                     <div style={{ textAlign: 'center' }}><strong>Ruby | RubyGems</strong></div>
                                     </CardText>
                                     <CardActions border>
+                                    <Tooltip style={{ float: 'left' }} label="Check out the code" position="bottom" large>
                                     <a href="https://github.com/ChrisR32/get-result" rel="noopener noreferrer" target="_blank">
                                         <Button colored>GitHub Repository</Button></a>
-                                    <a href="https://youtu.be/4p2OMFIPKXQ" style={{ textAlign: 'right', paddingLeft: '16px' }} rel="noopener noreferrer" target="_blank">
-                                        <Button colored>View Video</Button></a>
+                                        </Tooltip>
+                                        <Tooltip style={{ float: 'right' }} label="See it in action" position="bottom" large>
+                                    <a href="https://youtu.be/4p2OMFIPKXQ" rel="noopener noreferrer" target="_blank">
+                                        <Button colored>View Video</Button></a></Tooltip>
                                     </CardActions>
                                 </Card>
                                 </div>
@@ -171,10 +195,13 @@ class Projects extends Component {
                                     <div style={{ textAlign: 'center' }}><strong>Ruby | RubyGems</strong></div>
                                     </CardText>
                                     <CardActions border>
+                                    <Tooltip style={{ float: 'left' }} label="Check out the code" position="bottom" large>
                                     <a href="https://github.com/ChrisR32/unraid_ssh_dashboard/" rel="noopener noreferrer" target="_blank">
                                         <Button colored>GitHub Repository</Button></a>
-                                    <a href="https://youtu.be/CQ_ZqdHkd5U" style={{ textAlign: 'right', paddingLeft: '16px' }} rel="noopener noreferrer" target="_blank">
-                                        <Button colored>View Video</Button></a>
+                                        </Tooltip>
+                                        <Tooltip style={{ float: 'right' }} label="See it in action" position="bottom" large>
+                                    <a href="https://youtu.be/CQ_ZqdHkd5U" rel="noopener noreferrer" target="_blank">
+                                        <Button colored>View Video</Button></a></Tooltip>
                                     </CardActions>
                                 </Card>
                                 </div>
