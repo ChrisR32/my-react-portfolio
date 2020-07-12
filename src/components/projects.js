@@ -9,29 +9,7 @@ class Projects extends Component {
                     <Cell col={12}>
                         <div className="projects-grid">
                             
-                                <div style={{padding: '20px'}}> 
-                                <Card shadow={5} style={{minWidth: '650', margin: 'auto'}}>
-                                    <CardTitle className="the-project-title" style={{ color: '#fff', height: '240px', width: '100%', background: 
-                                     'url(http://www.compuconsultations.org/pokemon.png) center / cover'}} ></CardTitle>
-                                    <CardText style={{height: '150px'}}>
-                                    <div className="the-project-title"><p>Pokemon API App</p></div>
-                                    This app was created using react its purpose is to display various pokemon stats including images to the user, the app does this by utilizing a pokemon api. 
-                                    <br/><br/>
-                                    <strong><div style={{ textAlign: 'center' }}>React.JS | CSS | HTML</div></strong>
-                                    </CardText>
-                                    <CardActions border>
-                                    <Tooltip style={{ float: 'left' }} label="Check out the code" position="bottom" large>
-                                    <a href="https://github.com/ChrisR32/pokemon" rel="noopener noreferrer" target="_blank">
-                                        <Button colored>GitHub Repository</Button></a>
-                                        </Tooltip>
-                                        <Tooltip style={{ float: 'right' }} label="See it in action" position="bottom" large>
-                                    <a href="http://pokemon.compuconsultations.com/" rel="noopener noreferrer" target="_blank">
-                                        <Button colored>Live Site</Button></a></Tooltip>
-                                    </CardActions>
-                                </Card>
-                                </div>
-
-                                <div style={{padding: '20px'}}> 
+                        <div style={{padding: '20px'}}> 
                                 <Card shadow={5} style={{minWidth: '650', margin: 'auto'}}>
                                     <CardTitle className="the-project-title" style={{ color: '#fff', height: '240px', width: '100%', background: 
                                     'url(http://www.compuconsultations.org/Profile_new.png) center / cover'}} ></CardTitle>
@@ -70,6 +48,28 @@ class Projects extends Component {
                                         </Tooltip>
                                         <Tooltip style={{ float: 'right' }} label="See it in action" position="bottom" large>
                                     <a href="https://warm-brook-32678.herokuapp.com/" rel="noopener noreferrer" target="_blank">
+                                        <Button colored>Live Site</Button></a></Tooltip>
+                                    </CardActions>
+                                </Card>
+                                </div>
+
+                                <div style={{padding: '20px'}}> 
+                                <Card shadow={5} style={{minWidth: '650', margin: 'auto'}}>
+                                    <CardTitle className="the-project-title" style={{ color: '#fff', height: '240px', width: '100%', background: 
+                                     'url(http://pokemon.compuconsultations.org/) center / cover'}} ></CardTitle>
+                                    <CardText style={{height: '150px'}}>
+                                    <div className="the-project-title"><p>Pokemon API App</p></div>
+                                    This app was created using react its purpose is to display various pokemon stats including images to the user, the app does this by utilizing a pokemon api. 
+                                    <br/><br/>
+                                    <strong><div style={{ textAlign: 'center' }}>React.JS | CSS | HTML</div></strong>
+                                    </CardText>
+                                    <CardActions border>
+                                    <Tooltip style={{ float: 'left' }} label="Check out the code" position="bottom" large>
+                                    <a href="https://github.com/ChrisR32/pokemon" rel="noopener noreferrer" target="_blank">
+                                        <Button colored>GitHub Repository</Button></a>
+                                        </Tooltip>
+                                        <Tooltip style={{ float: 'right' }} label="See it in action" position="bottom" large>
+                                    <a href="http://pokemon.compuconsultations.com/" rel="noopener noreferrer" target="_blank">
                                         <Button colored>Live Site</Button></a></Tooltip>
                                     </CardActions>
                                 </Card>
