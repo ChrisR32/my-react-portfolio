@@ -59,7 +59,7 @@ class Projects extends Component {
                                     'url(http://www.compuconsultations.org/marshome.png) center / cover'}} ></CardTitle>
                                     <CardText style={{height: '150px'}}>
                                     <div className="the-project-title"><p>Mars Realestate</p></div>
-                                    A two-sided marketplace where users can trade their property on mars. Utilizing AWS-S3, Heroku, mail-gun and using the facebook-api. 
+                                    A two-sided marketplace where users can trade their property on mars. Utilizing AWS-S3, Heroku, mail-gun.
                                     <br/><br/>
                                     <strong><div style={{ textAlign: 'center' }}>Ruby on Rails | JavaScript | Bootstrap Omniauth | PostgreSQL</div></strong>
                                     </CardText>
