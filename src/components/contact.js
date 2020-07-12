@@ -22,9 +22,9 @@ class Contact extends Component {
             <List>
                 <ListItem>
                 <ListItemContent style={{fontSize: '3.5vw', fontFamily: 'Anton', color: 'white' }}>
-                <a href="tel:5554280940" rel="noopener noreferrer" style={{ color: 'white', textDecoration: 'none' }}>
+                <a href="tel:0457298815" rel="noopener noreferrer" style={{ color: 'white', textDecoration: 'none' }}>
                         <i className="fa fa-phone-square" aria-hidden="true" style={{ paddingRight: '20px', fontSize: '3.9vw' }}/>
-                        0408496240</a>
+                        0457298815</a>
                     </ListItemContent>
                 </ListItem>
                 <ListItem>

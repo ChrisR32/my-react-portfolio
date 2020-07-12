@@ -32,6 +32,10 @@ function App() {
           <div className="page-content" />
           
           <Main/>
+         
+
+
+          <footer className="profile-footer"><p>&copy; Copyright 2020 Christopher Morris</p></footer>
 
         </Content>
   
