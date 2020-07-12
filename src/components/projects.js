@@ -12,7 +12,7 @@ class Projects extends Component {
                         <div style={{padding: '20px'}}> 
                                 <Card shadow={5} style={{minWidth: '650', margin: 'auto'}}>
                                     <CardTitle className="the-project-title" style={{ color: '#fff', height: '240px', width: '100%', background: 
-                                    'url(http://www.compuconsultations.org/Profile_new.png) center / cover'}} ></CardTitle>
+                                    'url(http://www.compuconsultations.org/profile21.png) center / cover'}} ></CardTitle>
                                     <CardText style={{height: '150px'}}>
                                     <div className="the-project-title"><p>Profile Page 2.0</p></div>
                                     This is the latest version of my profile page, made using react, react-mdl material design and react router. In-fact it's the same site your browsing now.
@@ -34,7 +34,7 @@ class Projects extends Component {
                                 <div style={{padding: '20px'}}> 
                                 <Card shadow={5} style={{minWidth: '650', margin: 'auto'}}>
                                     <CardTitle className="the-project-title" style={{ color: '#fff', height: '240px', width: '100%', background: 
-                                    'url(http://www.compuconsultations.org/marshome.png) center / cover'}} ></CardTitle>
+                                    'url(http://www.compuconsultations.org/mars1.png) center / cover'}} ></CardTitle>
                                     <CardText style={{height: '150px'}}>
                                     <div className="the-project-title"><p>Mars Realestate</p></div>
                                     A two-sided marketplace where users can trade their property on mars. Utilizing AWS-S3, Heroku, mail-gun.
@@ -56,7 +56,7 @@ class Projects extends Component {
                                 <div style={{padding: '20px'}}> 
                                 <Card shadow={5} style={{minWidth: '650', margin: 'auto'}}>
                                     <CardTitle className="the-project-title" style={{ color: '#fff', height: '240px', width: '100%', background: 
-                                     'url(http://pokemon.compuconsultations.org/) center / cover'}} ></CardTitle>
+                                     'url(http://www.compuconsultations.org/poke1.png) center / cover'}} ></CardTitle>
                                     <CardText style={{height: '150px'}}>
                                     <div className="the-project-title"><p>Pokemon API App</p></div>
                                     This app was created using react its purpose is to display various pokemon stats including images to the user, the app does this by utilizing a pokemon api. 
@@ -78,7 +78,7 @@ class Projects extends Component {
                                 <div style={{padding: '20px'}}> 
                                 <Card shadow={5} style={{minWidth: '650', margin: 'auto'}}>
                                     <CardTitle className="the-project-title" style={{ color: '#fff', height: '240px', width: '100%', background: 
-                                    'url(http://www.compuconsultations.org/profile_1st.png) center / cover'}} ></CardTitle>
+                                    'url(http://www.compuconsultations.org/profile11.png) center / cover'}} ></CardTitle>
                                     <CardText style={{height: '150px'}}>
                                     <div className="the-project-title"><p>Profile Page 1.0</p></div>
                                     Created for an assesment at Coder Academy this ia a front-end portfolio website built to demonstrate my understanding and use of HTML and CSS.
@@ -100,7 +100,7 @@ class Projects extends Component {
                                 <div style={{padding: '20px'}}> 
                                 <Card shadow={5} style={{minWidth: '650', margin: 'auto'}}>
                                     <CardTitle className="the-project-title" style={{ color: '#fff', height: '240px', width: '100%', background: 
-                                    'url(http://www.compuconsultations.org/return_result.png) center / cover'}} ></CardTitle>
+                                    'url(http://www.compuconsultations.org/result1.png) center / cover'}} ></CardTitle>
                                     <CardText style={{height: '150px'}}>
                                     <div className="the-project-title"><p>Return Result</p></div>
                                     A terminal application designed in Ruby that was designed to select a random person in a class and keep score on how many times that person had been selected.
@@ -122,7 +122,7 @@ class Projects extends Component {
                                 <div style={{padding: '20px'}}> 
                                 <Card shadow={5} style={{minWidth: '650', margin: 'auto'}}>
                                     <CardTitle className="the-project-title" style={{ color: '#fff', height: '240px', width: '100%', background: 
-                                    'url(http://www.compuconsultations.org/unraidssh.png) center / cover'}} ></CardTitle>
+                                    'url(http://www.compuconsultations.org/ssh1.png) center / cover'}} ></CardTitle>
                                     <CardText style={{height: '150px'}}>
                                     <div className="the-project-title"><p>UnRaid SSH Dashboard</p></div>
                                     This is a terminal application designed in Ruby that allows the user to SSH into their UnRaid NAS server to monitor system status all by using standard terminal commands.
