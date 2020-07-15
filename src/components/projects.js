@@ -78,6 +78,29 @@ class Projects extends Component {
                                 <div style={{padding: '20px'}}> 
                                 <Card shadow={5} style={{minWidth: '650', margin: 'auto'}}>
                                     <CardTitle className="the-project-title" style={{ color: '#fff', height: '240px', width: '100%', background: 
+                                    'url(http://www.compuconsultations.org/snake2.png) center / cover'}} ></CardTitle>
+                                    <CardText style={{height: '150px'}}>
+                                    <div className="the-project-title"><p>Snake Feat. Nokia 5110</p></div>
+                                    A graphically simple snake game which is based on the classic highly-additive snake game that was best known as a feature on Nokia phones in the late 90's.
+                                    <br/><br/>
+                                    <strong><div style={{ textAlign: 'center' }}>React.JS | JavaScript | CSS | HTML</div></strong>
+                                    </CardText>
+                                    <CardActions border>
+                                    <Tooltip style={{ float: 'left' }} label="Check out the code" position="bottom" large>
+                                    <a href="https://github.com/ChrisR32/snake-nokia-game" rel="noopener noreferrer" target="_blank">
+                                        <Button colored>GitHub Repository</Button></a>
+                                        </Tooltip>
+                                        <Tooltip style={{ float: 'right' }} label="See it in action" position="bottom" large>
+                                    <a href="http://snake.compuconsultations.com/" rel="noopener noreferrer" target="_blank">
+                                        <Button colored>Live Site</Button></a></Tooltip>
+                                    </CardActions>
+                                </Card>
+                                </div>
+
+
+                                <div style={{padding: '20px'}}> 
+                                <Card shadow={5} style={{minWidth: '650', margin: 'auto'}}>
+                                    <CardTitle className="the-project-title" style={{ color: '#fff', height: '240px', width: '100%', background: 
                                     'url(http://www.compuconsultations.org/profile11.png) center / cover'}} ></CardTitle>
                                     <CardText style={{height: '150px'}}>
                                     <div className="the-project-title"><p>Profile Page 1.0</p></div>
